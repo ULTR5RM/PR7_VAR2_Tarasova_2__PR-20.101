@@ -161,19 +161,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="241dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="85dp"
-        android:layout_marginTop="615dp"
-        android:backgroundTint="#8AA2B5"
-        android:text="Показать результаты"
-        android:textColor="@color/black"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="44dp"
@@ -274,5 +261,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="245dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="615dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_5" />
+
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="150dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="632dp"
+        android:gravity="top"
+        android:text="Показать результаты"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

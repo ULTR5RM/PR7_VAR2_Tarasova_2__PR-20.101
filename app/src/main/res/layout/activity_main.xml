@@ -41,8 +41,11 @@
         android:layout_marginStart="66dp"
         android:layout_marginTop="100dp"
         android:text="Кого ты себе хочешь взять?"
+        android:textAllCaps="false"
         android:textColor="@color/black"
+        android:textDirection="ltr"
         android:textSize="20sp"
+        android:typeface="normal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -190,14 +193,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <RadioButton
-        android:id="@+id/radioButton5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="682dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <ImageView
         android:id="@+id/imageView5"
@@ -259,6 +255,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="26dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/poloski_small" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="33dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="682dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
